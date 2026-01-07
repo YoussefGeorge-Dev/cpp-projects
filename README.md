@@ -59,7 +59,8 @@ This section explains how to compile and run the C++ projects in this repository
 - Open VS Code → File → Open Folder → select your project folder  
 
 **3. Compile**  
-- Open the integrated terminal (Ctrl + `) and run:  
+- Open the integrated terminal (Ctrl + ) and run:
+  
   `g++ main.cpp -o program`  
 
 **4. Run the program**  
