@@ -1,29 +1,21 @@
 # cpp-projects
 
-![C++](https://img.shields.io/badge/C%2B%2B-17-blue?logo=c%2B%2B)
-![VS Code](https://img.shields.io/badge/VS%20Code-Editor-blue?logo=visualstudiocode)
-![Platform](https://img.shields.io/badge/Platform-Terminal-lightgrey)
-![Status](https://img.shields.io/badge/Status-Academic%20Projects-green)
+![C++](https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-Editor-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-IDE-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Academic%20Projects-2EA44F?style=for-the-badge)
 
 A collection of terminal-based C++ applications developed at the **British University in Egypt (BUE)**.  
-This repository contains multiple C++ projects built for coursework, practice, and skill development.
+This repository serves as an academic and practical archive of my C++ projects.
 
 ---
 
 ## 📚 About the Repository
 
-The projects in this repository were developed as part of academic work and personal practice at BUE.  
-They focus on applying C++ fundamentals through terminal-based applications.
+This repository contains multiple C++ projects developed during coursework and independent practice at BUE.  
+Each project may have **multiple iterations**, representing continuous improvement, refactoring, and feature expansion.
 
-Topics covered include:
-
-- Procedural programming
-- Object-oriented programming (OOP)
-- Control structures and data types
-- Functions and modular design
-- File handling
-- Basic data structures
-- Algorithmic problem solving
+All applications are designed to run in the terminal.
 
 ---
 
@@ -31,13 +23,67 @@ Topics covered include:
 
 - **Language:** C++
 - **Standard:** C++17
-- **Editor:** Visual Studio Code (VS Code)
-- **Compiler:** GCC / g++
-- **Environment:** Terminal / Command Line
+- **Editors / IDEs:**
+  - Visual Studio Code (VS Code)
+  - Visual Studio (VS)
+- **Compilers:**
+  - GCC / g++ (VS Code)
+  - MSVC (Visual Studio)
 - **Platform:** Windows, Linux, macOS
 
 ---
 
 ## 📁 Project Structure
 
-Each project is organized in its own directory:
+Projects are organized into separate directories.  
+Some projects may contain multiple iterations.
+
+---
+
+## ▶️ Build and Run Instructions
+
+This section explains how to compile and run the C++ projects in this repository.
+
+---
+
+### 🔹 Using Visual Studio Code (VS Code)
+
+**1. Install prerequisites**  
+- Visual Studio Code  
+- C++ compiler:  
+  - Windows: MinGW or MSYS2  
+  - Linux: g++  
+  - macOS: Xcode Command Line Tools  
+
+**2. Open the project**  
+- Open VS Code → File → Open Folder → select your project folder  
+
+**3. Compile**  
+- Open the integrated terminal (Ctrl + `) and run:  
+  `g++ main.cpp -o program`  
+
+**4. Run the program**  
+- Linux / macOS: `./program`  
+- Windows: `program.exe`  
+
+---
+
+### 🔹 Using Visual Studio (VS)
+
+**1. Install prerequisites**  
+- Visual Studio  
+- During installation, enable **Desktop development with C++**  
+
+**2. Create a new project**  
+- Open Visual Studio → Create a new project → Console App (C++)  
+- Name the project and choose a location  
+
+**3. Add source files**  
+- Copy `.cpp` files from the repository into the project folder  
+- In Visual Studio: Right-click Source Files → Add → Existing Item → Select `.cpp` files  
+
+**4. Build and run**  
+- Build → Build Solution  
+- Run:  
+  - Ctrl + F5 → Run without debugging  
+  - F5 → Run with debugging
