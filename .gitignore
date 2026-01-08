@@ -39,3 +39,21 @@
 
 # debug information files
 *.dwo
+
+# --- IDE Specifics ---
+
+# Visual Studio (Full IDE)
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Hidden System Files
+.DS_Store
+Thumbs.db
