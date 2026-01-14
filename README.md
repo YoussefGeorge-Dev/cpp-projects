@@ -1,9 +1,15 @@
 # cpp-projects
 
-![C++](https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-Editor-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-IDE-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Academic%20Projects-2EA44F?style=for-the-badge)
+<div align="center">
+  
+# 💻 C++ Academic Archive
+**The British University in Egypt (BUE)**
+
+![C++](https://img.shields.io/badge/C++-17-black?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-000000?style=for-the-badge)
+![Status](https://img.shields.io/badge/Academic-Projects-000000?style=for-the-badge&logo=github)
+
+</div>
 
 A collection of terminal-based C++ applications developed at the **British University in Egypt (BUE)**.  
 This repository serves as an academic and practical archive of my C++ projects.
