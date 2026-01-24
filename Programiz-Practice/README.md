@@ -5,7 +5,7 @@
 ![C++](https://img.shields.io/badge/C++-17-black?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Algorithms%20%26%20Logic-000000?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-2ea44f?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Progress-0%2F63-0e75b6?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-13%2F63-0e75b6?style=for-the-badge)
 
 **Independent study collection of C++ solutions from [Programiz](https://www.programiz.com/cpp-programming/examples)**
 
@@ -30,18 +30,18 @@ g++ 01_Hello_World.cpp -o output && ./output
 ## 📊 Progress
 
 <details>
-<summary><b>🔹 Introduction & Basics</b> — 0/8 complete</summary>
+<summary><b>🔹 Introduction & Basics</b> — 8/8 complete</summary>
 
 | # | Problem | Status | File |
 |:-:|:--------|:------:|:-----|
-| 1 | "Hello, World!" Program | ⬜ | [01_Hello_World.cpp](./01_Hello_World.cpp) |
-| 2 | Print Number Entered by User | ⬜ | [02_Print_Number.cpp](./02_Print_Number.cpp) |
-| 3 | Add Two Numbers | ⬜ | [03_Add_Numbers.cpp](./03_Add_Numbers.cpp) |
-| 4 | Find Quotient and Remainder | ⬜ | [04_Quotient_Remainder.cpp](./04_Quotient_Remainder.cpp) |
-| 5 | Find Size of int, float, double, char | ⬜ | [05_SizeOf.cpp](./05_SizeOf.cpp) |
-| 6 | Swap Two Numbers | ⬜ | [06_Swap.cpp](./06_Swap.cpp) |
-| 22 | Find ASCII Value of a Character | ⬜ | [22_ASCII_Value.cpp](./22_ASCII_Value.cpp) |
-| 23 | Multiply two Numbers | ⬜ | [23_Multiply_Numbers.cpp](./23_Multiply_Numbers.cpp) |
+| 1 | "Hello, World!" Program | ✔️ | [01_Hello_World.cpp](./01_Hello_World.cpp) |
+| 2 | Print Number Entered by User | ✔️ | [02_Print_Number.cpp](./02_Print_Number.cpp) |
+| 3 | Add Two Numbers | ✔️ | [03_Add_Numbers.cpp](./03_Add_Numbers.cpp) |
+| 4 | Find Quotient and Remainder | ✔️ | [04_Quotient_Remainder.cpp](./04_Quotient_Remainder.cpp) |
+| 5 | Find Size of int, float, double, char | ✔️ | [05_SizeOf.cpp](./05_SizeOf.cpp) |
+| 6 | Swap Two Numbers | ✔️ | [06_Swap.cpp](./06_Swap.cpp) |
+| 22 | Find ASCII Value of a Character | ✔️ | [22_ASCII_Value.cpp](./22_ASCII_Value.cpp) |
+| 23 | Multiply two Numbers | ✔️ | [23_Multiply_Numbers.cpp](./23_Multiply_Numbers.cpp) |
 
 </details>
 
