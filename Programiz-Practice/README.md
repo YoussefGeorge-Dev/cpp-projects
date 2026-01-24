@@ -5,7 +5,7 @@
 ![C++](https://img.shields.io/badge/C++-17-black?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Algorithms%20%26%20Logic-000000?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-2ea44f?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Progress-13%2F63-0e75b6?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-8%2F63-0e75b6?style=for-the-badge)
 
 **Independent study collection of C++ solutions from [Programiz](https://www.programiz.com/cpp-programming/examples)**
 
@@ -132,7 +132,7 @@ g++ 01_Hello_World.cpp -o output && ./output
 
 </details>
 
-**Total: 0/63 problems solved**
+**Total: 8/63 problems solved**
 
 ---
 
