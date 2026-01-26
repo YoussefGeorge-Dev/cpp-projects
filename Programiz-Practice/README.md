@@ -5,7 +5,7 @@
 ![C++](https://img.shields.io/badge/C++-17-black?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Algorithms%20%26%20Logic-000000?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-2ea44f?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Progress-13%2F63-0e75b6?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-11%2F63-0e75b6?style=for-the-badge)
 
 **Independent study collection of C++ solutions from [Programiz](https://www.programiz.com/cpp-programming/examples)**
 
@@ -46,13 +46,13 @@ g++ 01_Hello_World.cpp -o output && ./output
 </details>
 
 <details>
-<summary><b>🔹 Control Flow</b> — 0/21 complete</summary>
+<summary><b>🔹  Decisions and Loops  </b> — 3/21 complete</summary>
 
 | # | Problem | Status | File |
 |:-:|:--------|:------:|:-----|
-| 7 | Check Whether Number is Even or Odd | ⬜ | [07_Even_Odd.cpp](./07_Even_Odd.cpp) |
-| 8 | Check Whether a Character is Vowel or Consonant | ⬜ | [08_Vowel_Consonant.cpp](./08_Vowel_Consonant.cpp) |
-| 9 | Find Largest Number Among Three Numbers | ⬜ | [09_Largest_Number.cpp](./09_Largest_Number.cpp) |
+| 7 | Check Whether Number is Even or Odd | ✔️ | [07_Even_Odd.cpp](./07_Even_Odd.cpp) |
+| 8 | Check Whether a Character is Vowel or Consonant | ✔️ | [08_Vowel_Consonant.cpp](./08_Vowel_Consonant.cpp) |
+| 9 | Find Largest Number Among Three Numbers | ✔️ | [09_Largest_Number.cpp](./09_Largest_Number.cpp) |
 | 10 | Find All Roots of a Quadratic Equation | ⬜ | [10_Quadratic_Roots.cpp](./10_Quadratic_Roots.cpp) |
 | 11 | Calculate Sum of Natural Numbers | ⬜ | [11_Sum_Natural.cpp](./11_Sum_Natural.cpp) |
 | 12 | Check Leap Year | ⬜ | [12_Leap_Year.cpp](./12_Leap_Year.cpp) |
@@ -132,7 +132,7 @@ g++ 01_Hello_World.cpp -o output && ./output
 
 </details>
 
-**Total: 0/63 problems solved**
+**Total: 11/63 problems solved**
 
 ---
 
