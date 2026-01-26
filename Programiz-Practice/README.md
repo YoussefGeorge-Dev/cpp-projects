@@ -46,7 +46,7 @@ g++ 01_Hello_World.cpp -o output && ./output
 </details>
 
 <details>
-<summary><b>🔹 Control Flow</b> — 0/21 complete</summary>
+<summary><b>🔹 Decisions and Loops </b> — 0/21 complete</summary>
 
 | # | Problem | Status | File |
 |:-:|:--------|:------:|:-----|
@@ -75,7 +75,7 @@ g++ 01_Hello_World.cpp -o output && ./output
 </details>
 
 <details>
-<summary><b>🔹 Functions & Recursion</b> — 0/11 complete</summary>
+<summary><b>🔹 Functions </b> — 0/11 complete</summary>
 
 | # | Problem | Status | File |
 |:-:|:--------|:------:|:-----|
