@@ -2,7 +2,7 @@
 using namespace std;
 
 // * Question 1
-
+// TODO: This question is about determining the price of a movie ticket based on the age of the customer.
 /* 
 int main() 
 {
@@ -22,7 +22,7 @@ return 0;
 */
 
 // ! Question 2 
-
+// TODO: This question is about determining the position of a football player based on their jersey number.
 /*
 int main() 
 {
@@ -54,7 +54,7 @@ return 0;
 */
 
 // * Question 3
-
+// TODO: This question is about finding the largest of three numbers entered by the user.
 /*
 int main() 
 {
@@ -83,6 +83,8 @@ return 0;
 
 // * Question 4
 // ! HIGHLY IMPORTANT 
+// TODO: This question is about performing basic arithmetic operations based on user input and handling division by zero appropriately.
+/*
 int main() 
 {
 char operation;
@@ -117,4 +119,101 @@ switch (operation)
 }
  cout << num1 << " " << operation << " " << num2 << " = " << result;
  return 0;
+}
+*/
+
+// * Question 5
+// TODO: This question is about calculating the total price of items based on user input and handling invalid item entries appropriately.
+/*
+int main() 
+{
+ char product;
+ int price = 0;
+ cout << "Please enter 5 items" << endl;
+    for (int i = 0; i < 5; i++)
+    {
+        cin >> product;
+        switch (product) 
+        {
+            case 'Y':
+            case 'y':
+                price = price + 5;
+                break;
+            case 'C':
+            case 'c':
+                price = price + 200;
+                break;
+            case 'T':
+            case 't':
+                price = price + 30;
+                break;
+            case 'M':
+            case 'm':
+                price = price + 45;
+                break;
+            default:
+                cout << "Invalid item entered." << endl;
+        }
+    }
+    cout << "Total price: " << price << " L.E." << endl;
+    return 0;
+ }
+*/
+
+// * Question 6
+// ! HIGHLY IMPORTANT 
+// TODO: This question is about printing a pattern of asterisks in a specific format based on user input for the number of rows.
+
+/*
+int main() 
+{
+ for (int i = 5; i >= 1; i--)
+ {
+ for (int j = i; j >= 1; j--)
+ {
+ cout << "* ";
+ }
+ cout << endl;
+ }
+ return 0;
+}
+*/
+
+// * Question 7
+// ! HIGHLY IMPORTANT
+// TODO: This question is about printing a pattern of letters in a specific format based on user input for the number of rows, and resetting the letter back to 'A' for each new line.
+/*
+int main() {
+ int letter = 'A';
+ for (int i = 5; i >= 1; i--)
+ {
+ for (int j = i; j >= 1; j--)
+ {
+ cout << (char)letter << " ";
+ letter++;
+ }
+ cout << endl;
+ letter = 'A';  // ! to reset the letter back to 'A' for the next line
+ }
+ return 0;
+}
+*/
+
+// * Question 8
+// TODO: This question is about printing a pattern of numbers in a specific format based on user input for the number of rows, and ensuring that the numbers continue sequentially across lines without resetting.
+int main()
+{
+    int rows, number = 1;
+    cout << "Enter the number of rows: ";
+    cin >> rows;
+    for (int i = 1; i <= rows; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << number << " ";
+            number++;
+        }
+        cout << endl;
+    }
+    return 0;
 }
