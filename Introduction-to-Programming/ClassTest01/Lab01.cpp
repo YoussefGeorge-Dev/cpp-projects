@@ -201,6 +201,8 @@ int main() {
 
 // * Question 8
 // TODO: This question is about printing a pattern of numbers in a specific format based on user input for the number of rows, and ensuring that the numbers continue sequentially across lines without resetting.
+
+/*
 int main()
 {
     int rows, number = 1;
@@ -217,3 +219,4 @@ int main()
     }
     return 0;
 }
+*/
