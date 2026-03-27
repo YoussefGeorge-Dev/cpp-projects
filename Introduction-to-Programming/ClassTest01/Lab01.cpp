@@ -21,7 +21,8 @@ return 0;
 }   
 */
 
-// ! Question 2 
+// * Question 2
+// ! HIGHLY IMPORTANT 
 // TODO: This question is about determining the position of a football player based on their jersey number.
 /*
 int main() 
