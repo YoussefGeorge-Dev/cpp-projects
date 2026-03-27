@@ -7,35 +7,34 @@ using namespace std;
 /*
 int main() 
 {
-const int ROWS = 3;
-const int COLS = 5;
+    const int ROWS = 3;
+    const int COLS = 5;
 
-int arr[ROWS][COLS] = 
-{
-    {1, 2, 3, 4, 5},
-    {6, 7, 8, 9, 10},
-    {11, 12, 13, 14, 15}
-};
-int max = arr[0][0];
-int min = arr[0][0];
-for(int i = 0; i < ROWS; i++) 
-{
-    for(int j = 0; j < COLS; j++) 
+    int arr[ROWS][COLS] = 
     {
-        if(arr[i][j] > max) 
+        {1, 2, 3, 4, 5},
+        {6, 7, 8, 9, 10},
+        {11, 12, 13, 14, 15}
+    };
+    int max = arr[0][0];
+    int min = arr[0][0];
+    for (int i = 0; i < ROWS; i++) 
+    {
+        for (int j = 0; j < COLS; j++) 
         {
-            max = arr[i][j];
-        }
-        if(arr[i][j] < min) 
-        {
-            min = arr[i][j];
+            if (arr[i][j] > max) 
+            {
+                max = arr[i][j];
+            }
+            if (arr[i][j] < min) 
+            {
+                min = arr[i][j];
+            }
         }
     }
-    
-}
-cout << "The largest number is: " << max << endl;
-cout << "The smallest number is: " << min << endl;
-return 0;
+    cout << "The largest number is: " << max << endl;
+    cout << "The smallest number is: " << min << endl;
+    return 0;
 }
 */
 
@@ -50,23 +49,23 @@ int main()
 
     int arr[ROWS][COLS] = 
     {
-    {1, 2, 3, 4, 5},
-    {6, 7, 8, 9, 10},
-    {11, 12, 13, 14, 15}
+        {1, 2, 3, 4, 5},
+        {6, 7, 8, 9, 10},
+        {11, 12, 13, 14, 15}
     };
 
-    for(int i = 0; i < ROWS; i++) 
+    for (int i = 0; i < ROWS; i++) 
     {
-        for(int j = 0; j < COLS; j++) 
+        for (int j = 0; j < COLS; j++) 
         {
-            if(arr[i][j] % 2 != 0) 
+            if (arr[i][j] % 2 != 0) 
             {
                 cout << arr[i][j] << " ";
             }
         }
     }
     return 0;
-}  
+}
 */
 
 // * Question 3
@@ -74,22 +73,20 @@ int main()
 // TODO: This question is about calculating the product of each column in a 2D array of integers and storing the results in a separate array before printing them out. 
 
 /*
-
-int main() {
+int main() 
+{
     const int ROWS = 3;
     const int COLS = 5;
 
-    int arr[ROWS][COLS] =   { 
-                            {5,3,2,1,5},
-                            {2,3,4,3,6},
-                            {10,9,8,4,2} 
-                            };
+    int arr[ROWS][COLS] = 
+    {
+        {5, 3, 2, 1, 5},
+        {2, 3, 4, 3, 6},
+        {10, 9, 8, 4, 2}
+    };
 
     int result[COLS];
-
     int product;
-
-    int count = 0;
 
     for (int i = 0; i < COLS; i++)
     {
@@ -101,12 +98,10 @@ int main() {
         }
 
         result[i] = product;
-
         cout << result[i] << " ";
     }
 
     return 0;
-
 }
 */
 
@@ -115,37 +110,39 @@ int main() {
 
 /*
 int main() 
-
 {
+    const int ROWS = 3;
+    const int COLS = 3;
 
-const int ROWS = 3;
-const int COLS = 3;
-int arr[ROWS][COLS] =   { 
-                            {1,2,3},
-                            {4,5,6},
-                            {7,8,9}     
-                        };
-int x;
-cout << "Enter a number to search for: ";
-cin >> x;
-
-bool found = false;
-for (int i = 0; i < ROWS; i++)
-{
-    for (int j = 0; j < COLS; j++)
+    int arr[ROWS][COLS] = 
     {
-        if (arr[i][j] == x)
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
+
+    int x;
+    cout << "Enter a number to search for: ";
+    cin >> x;
+
+    bool found = false;
+    for (int i = 0; i < ROWS; i++)
+    {
+        for (int j = 0; j < COLS; j++)
         {
-        cout << "Number found at row " << i << endl;
-        cout << "Number found at column " << j;
-        found = true;
-        break; // ! Exit the inner loop if the number is found
+            if (arr[i][j] == x)
+            {
+                cout << "Number found at row " << i << endl;
+                cout << "Number found at column " << j;
+                found = true;
+                break; // ! Exit the inner loop if the number is found
+            }
         }
     }
-}
-if (found == false) 
-    cout << "Number not found." << endl;
-return 0;
+    if (found == false)
+        cout << "Number not found." << endl;
+
+    return 0;
 }
 */
 
@@ -154,25 +151,31 @@ return 0;
 // TODO: This question is about calculating the average grade for each student based on a 2D array of integers where each row represents a student.
 
 /*
- int main() 
- {
- const int ROWS = 3;
- const int COLS = 5;
- int arr[ROWS][COLS] = { {50,10,89,36,69},{87,94,52,37,78},{48,65,75,19,23} };
- float average = 0;
- for ( int i = 0; i < ROWS; i++)
- {
- for ( int j = 0; j < COLS; j++)
- {
- average = average + arr[i][j];
- }
- average = average / COLS;
- cout << "Student " << i + 1 << " average grade is " << average << endl;
- }
- return 0;
+int main() 
+{
+    const int ROWS = 3;
+    const int COLS = 5;
+
+    int arr[ROWS][COLS] = 
+    {
+        {50, 10, 89, 36, 69},
+        {87, 94, 52, 37, 78},
+        {48, 65, 75, 19, 23}
+    };
+
+    float average = 0;
+    for (int i = 0; i < ROWS; i++)
+    {
+        for (int j = 0; j < COLS; j++)
+        {
+            average = average + arr[i][j];
+        }
+        average = average / COLS;
+        cout << "Student " << i + 1 << " average grade is " << average << endl;
+    }
+    return 0;
 }
 */
-
 
 // * Question 6
 // !! HIGHLY IMPORTANT
@@ -181,35 +184,37 @@ return 0;
 /*
 int main() 
 {
- const int ROW1 = 2;
- const int COL1 = 3;
- const int ROW2 = 3;
- const int COL2 = 2;
- int a[ROW1][COL1] = { 1,2,3,4,5,6 };
- int b[ROW2][COL2] = { 10,11,20,21,30,31};
- int result[ROW1][COL2];
+    const int ROW1 = 2;
+    const int COL1 = 3;
+    const int ROW2 = 3;
+    const int COL2 = 2;
 
- // Multiplying matrix a and b and storing in array c.
- for ( int i = 0; i < ROW1; i++)
- {
- for ( int j = 0; j < COL2; j++)
- {
- result[i][j] = 0;
- for ( int k = 0; k < COL1; k++)
- {
- result[i][j] = result[i][j] + (a[i][k] * b[k][ j]);
- }
- }
- }
- for ( int i = 0; i < ROW1; i++)
- {
- for ( int j = 0; j < COL2; j++)
- {
- cout << result[i][j] << " " ;
- }
- cout << endl;
- }
- return 0;
+    int a[ROW1][COL1] = { {1, 2, 3}, {4, 5, 6} };
+    int b[ROW2][COL2] = { {10, 11}, {20, 21}, {30, 31} };
+    int result[ROW1][COL2];
+
+    // Multiplying matrix a and b and storing in array result.
+    for (int i = 0; i < ROW1; i++)
+    {
+        for (int j = 0; j < COL2; j++)
+        {
+            result[i][j] = 0;
+            for (int k = 0; k < COL1; k++)
+            {
+                result[i][j] = result[i][j] + (a[i][k] * b[k][j]);
+            }
+        }
+    }
+
+    for (int i = 0; i < ROW1; i++)
+    {
+        for (int j = 0; j < COL2; j++)
+        {
+            cout << result[i][j] << " ";
+        }
+        cout << endl;
+    }
+    return 0;
 }
 */
 
@@ -220,47 +225,50 @@ int main()
 /*
 int main() 
 {
- const int ROWS = 4;
- const int COLS = 5;
- string word;
- char arr[ROWS][COLS] = {
-                        { 'A' , 'C' , 'A' , 'T' , 'N' },
-                        { 'F' , 'M' , 'D' , 'O' , 'G' },
-                        { 'K' , 'I' , 'T' , 'P' , 'Q' },
-                        { 'M' , 'S' , 'A' , 'F' , 'A' }
-                        };
+    const int ROWS = 4;
+    const int COLS = 5;
 
-
- cout << "Enter the word you are searching for:" << endl;
- cin >> word;
- char letter1 = tolower(word.at(0));
- char letter2 = tolower(word.at(1));
- char letter3 = tolower(word.at(2));
- bool found = false ;
- for ( int i = 0; i < ROWS; i++)
- {
- for ( int j = 0; j < COLS - 2; j++)
+    string word;
+    char arr[ROWS][COLS] = 
     {
-        if ( (tolower(arr[i][j]) == letter1) && (tolower(arr[i][j + 1]) == letter2) && (tolower(arr[i][j + 2]) == letter3) )
+        {'A', 'C', 'A', 'T', 'N'},
+        {'F', 'M', 'D', 'O', 'G'},
+        {'K', 'I', 'T', 'P', 'Q'},
+        {'M', 'S', 'A', 'F', 'A'}
+    };
+
+    cout << "Enter the word you are searching for:" << endl;
+    cin >> word;
+
+    char letter1 = tolower(word.at(0));
+    char letter2 = tolower(word.at(1));
+    char letter3 = tolower(word.at(2));
+    bool found = false;
+
+    for (int i = 0; i < ROWS; i++)
+    {
+        for (int j = 0; j < COLS - 2; j++)
         {
-            cout << "The word is found starting from row " << i+1 << " and column " << j+1 << endl;
-            found = true ;
-            break ;
+            if ((tolower(arr[i][j]) == letter1) && (tolower(arr[i][j + 1]) == letter2) && (tolower(arr[i][j + 2]) == letter3))
+            {
+                cout << "The word is found starting from row " << i + 1 << " and column " << j + 1 << endl;
+                found = true;
+                break;
+            }
         }
     }
- 
-}
-if (found == false)
-{
-    cout << "The word is not found in the array." << endl;
-}
-return 0;
+
+    if (found == false)
+    {
+        cout << "The word is not found in the array." << endl;
+    }
+    return 0;
 }
 */
 
 // * Question 8
 // ! HIGHLY IMPORTANT
-// TODO: Fill in the missing values (0s) in a 3x3 sudoku grid so that each row contains 1, 2, and 3 with no repeats, then print the completed grid.int main() 
+// TODO: Fill in the missing values (0s) in a 3x3 sudoku grid so that each row contains 1, 2, and 3 with no repeats, then print the completed grid.
 
 /*
 int main()
@@ -270,15 +278,17 @@ int main()
     const int COLS = 3;
 
     // Initialize the puzzle grid (0 represents a missing/empty cell)
-    int puzzle[ROWS][COLS] = { {1,0,3}, 
-                                {3,1,0}, 
-                                {2,3,0} 
-                              };
+    int puzzle[ROWS][COLS] = 
+    {
+        {1, 0, 3},
+        {3, 1, 0},
+        {2, 3, 0}
+    };
 
     // Array to store the sum of each row, initialized to 0
     int sum[ROWS] = {0};
 
-    // ── Step 1: Calculate the sum of each row ─
+    // ── Step 1: Calculate the sum of each row ────────────────────────
     for (int i = 0; i < ROWS; i++)
     {
         for (int j = 0; j < COLS; j++)
@@ -297,21 +307,21 @@ int main()
             if ((sum[i] == 5) && (puzzle[i][j] == 0))
             {
                 puzzle[i][j] = 1;
-                break; 
+                break;
             }
 
             // If the row sum is 4, the missing value must be 2 (since 4+2=6)
             if ((sum[i] == 4) && (puzzle[i][j] == 0))
             {
                 puzzle[i][j] = 2;
-                break; 
+                break;
             }
 
             // If the row sum is 3, the missing value must be 3 (since 3+3=6)
             if ((sum[i] == 3) && (puzzle[i][j] == 0))
             {
                 puzzle[i][j] = 3;
-                break; 
+                break;
             }
         }
     }
@@ -321,14 +331,11 @@ int main()
     {
         for (int j = 0; j < COLS; j++)
         {
-            // Print each element followed by a space
             cout << puzzle[i][j] << " ";
         }
-        // Move to the next line after each row
         cout << endl;
     }
 
-    return 0; 
+    return 0;
 }
 */
-
