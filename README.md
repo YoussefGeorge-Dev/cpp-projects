@@ -30,7 +30,7 @@ All applications are designed to run in the terminal.
 - **Language:** C++
 - **Standard:** C++17
 - **Editors / IDEs:**
-  - Visual Studio Code (VS Code)
+  - Visual Studio Code (VS Code) (I use Better Comments Chrome Extension) 
   - Visual Studio (VS)
 - **Compilers:**
   - GCC / g++ (VS Code)
