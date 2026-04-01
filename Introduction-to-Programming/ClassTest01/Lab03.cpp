@@ -241,7 +241,7 @@ int main()
     cin >> word;
 
     char letter1 = tolower(word.at(0));
-    char letter2 = tolower(word.at(1));
+    char letter2 = tolower(word.at(1));    
     char letter3 = tolower(word.at(2));
     bool found = false;
 
