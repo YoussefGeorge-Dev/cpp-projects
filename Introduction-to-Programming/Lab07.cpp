@@ -89,7 +89,7 @@ int main()
 // * Question 5
 //TODO: This question is about defining a structure for an employee, including fields for ID, name, salary, and performance rating, and then implementing functions to input employee data, update salaries based on performance ratings, and print the updated employee information.
 
-
+/*
 struct Employee 
 {
     int ID;
@@ -147,7 +147,7 @@ int main() {
     return 0;
 }
 
-
+*/
 
 // * Question 6
 // TODO: This question is about defining an enum for the days of the week starting from Sunday as day 1, taking an integer input from the user, and printing the corresponding day name using a switch statement. 
