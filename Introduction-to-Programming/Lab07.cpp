@@ -44,28 +44,32 @@ struct Complex
     float imaginary;
 };
 
-void add(Complex c1, Complex c2) {
+void add(Complex c1, Complex c2) 
+{
     Complex result;
     result.real = c1.real + c2.real;
     result.imaginary = c1.imaginary + c2.imaginary;
     cout << "Addition: " << result.real << " + " << result.imaginary << "i" << endl;
 }
 
-void subtract(Complex c1, Complex c2) {
+void subtract(Complex c1, Complex c2) 
+{
     Complex result;
     result.real = c1.real - c2.real;
     result.imaginary = c1.imaginary - c2.imaginary;
     cout << "Subtraction: " << result.real << " + " << result.imaginary << "i" << endl;
 }
 
-void multiply(Complex c1, Complex c2) {
+void multiply(Complex c1, Complex c2) 
+{
     Complex result;
     result.real = (c1.real * c2.real) - (c1.imaginary * c2.imaginary);
     result.imaginary = (c1.real * c2.imaginary) + (c1.imaginary * c2.real);
     cout << "Multiplication: " << result.real << " + " << result.imaginary << "i" << endl;
 }
 
-int main() {
+int main() 
+{
     Complex c1, c2;
 
     cout << "Enter real and imaginary parts of first complex number: ";
@@ -85,16 +89,19 @@ int main() {
 // * Question 5
 //TODO: This question is about defining a structure for an employee, including fields for ID, name, salary, and performance rating, and then implementing functions to input employee data, update salaries based on performance ratings, and print the updated employee information.
 
-/*
-struct Employee {
+
+struct Employee 
+{
     int ID;
     string name;
     float salary;
     float performance;
 };
 
-void getEmployees(Employee employees[], int size) {
-    for (int i = 0; i < size; i++) {
+void getEmployees(Employee employees[], int size) 
+{
+    for (int i = 0; i < size; i++) 
+    {
         cout << "\nEnter details for Employee " << i + 1 << ":" << endl;
         cout << "ID: ";
         cin >> employees[i].ID;
@@ -107,18 +114,21 @@ void getEmployees(Employee employees[], int size) {
     }
 }
 
-void updateSalary(Employee employees[], int size) {
-    for (int i = 0; i < size; i++) {
-        if (employees[i].performance >= 80) {
-            employees[i].salary *= 1.20;
+void updateSalary(Employee employees[], int size) 
+{
+    for (int i = 0; i < size; i++) 
+    {
+        if (employees[i].performance >= 80) 
+        {
+            employees[i].salary = employees[i].salary * 1.20;
         }
     }
 }
 
 void printEmployees(Employee employees[], int size) {
-    cout << "\n--- Employees Data After Salary Update ---" << endl;
+    cout << "Employees Data After Salary Update:" << endl;
     for (int i = 0; i < size; i++) {
-        cout << "\nEmployee " << i + 1 << ":" << endl;
+        cout << "Employee " << i + 1 << ":" << endl;
         cout << "ID          : " << employees[i].ID << endl;
         cout << "Name        : " << employees[i].name << endl;
         cout << "Salary      : " << employees[i].salary << endl;
@@ -127,22 +137,24 @@ void printEmployees(Employee employees[], int size) {
 }
 
 int main() {
-    Employee employees[3];
+    const int SIZE = 3;
+    Employee employees[SIZE];
 
-    getEmployees(employees, 3);
-    updateSalary(employees, 3);
-    printEmployees(employees, 3);
+    getEmployees(employees, SIZE);
+    updateSalary(employees, SIZE);
+    printEmployees(employees, SIZE);
 
     return 0;
 }
 
-*/
+
 
 // * Question 6
 // TODO: This question is about defining an enum for the days of the week starting from Sunday as day 1, taking an integer input from the user, and printing the corresponding day name using a switch statement. 
 
 /*
-enum Day {
+enum Day 
+{
     Sunday = 1,
     Monday,
     Tuesday,
