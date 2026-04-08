@@ -57,7 +57,9 @@ int main() {
 
 // * Question 3
 // TODO Program that creates a text file named "Q3.txt", writes some sample text into it, and then reads the file to count the number of lines and words, finally printing the counts to the console.
+// ! HIGHLY IMPORTANT
 
+/*
 int main() 
 {
     fstream File;
@@ -101,3 +103,31 @@ int main()
     return 0;
 }
 }
+*/
+
+// * Question 4
+// TODO Program that reads two text files named "surnames.txt" and "fathernames.txt", combines the corresponding lines from both files to create full names, and writes the full names into a new text file named "fullnames.txt".
+/*
+int main() {
+    
+    fstream surnamesFile("surnames.txt", ios::in);
+    fstream fathernamesFile("fathernames.txt", ios::in);
+    fstream outputFile("fullnames.txt", ios::out);
+
+    string firstname, fathername;
+
+    while (surnamesFile >> firstname && fathernamesFile >> fathername) 
+    {
+        outputFile << firstname << " " << fathername << endl;
+    }
+
+    surnamesFile.close();
+    fathernamesFile.close();
+    outputFile.close();
+
+    cout << "Check fullnames.txt" << endl;
+
+    return 0;
+}
+*/
+
