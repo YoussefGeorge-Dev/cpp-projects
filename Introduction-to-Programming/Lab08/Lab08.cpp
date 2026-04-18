@@ -28,11 +28,6 @@ int main() {
     fstream file;
     file.open("paragraph.txt", ios::in);
 
-    if (!file) {
-        cout << "Error opening file!" << endl;
-        return 1;
-    }
-
     string content = "";
     char ch;
 
@@ -57,7 +52,7 @@ int main() {
 
 // * Question 3
 // TODO Program that creates a text file named "Q3.txt", writes some sample text into it, and then reads the file to count the number of lines and words, finally printing the counts to the console.
-// ! HIGHLY IMPORTANT
+// ! HIGHLY IMPORTANT & HIGHLY DIFFICULT
 
 /*
 int main() 
@@ -65,12 +60,13 @@ int main()
     fstream File;
 
     File.open("Q3.txt", ios::out);
-    if (File.is_open()) {
+    if (File.is_open()) 
+    {
         File << "Hello world\n";
         File << "This is the sample file for question 3 \n";
         File << "i am very very tired! \n";
         File.close(); 
-
+    }
     File.open("Q3.txt", ios::in);
     string line;
     int lineCount = 0, wordCount = 0;
