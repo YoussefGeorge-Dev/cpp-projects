@@ -8,7 +8,7 @@ using namespace std;
 
 /*
 int main() {
-    ifstream file("demo.txt");  
+    ifstream file("Q1.txt");  
 
     string line;
     while (getline(file, line)) 
@@ -26,7 +26,7 @@ int main() {
 /*
 int main() {
     fstream file;
-    file.open("paragraph.txt", ios::in);
+    file.open("Q2.txt", ios::in);
 
     string content = "";
     char ch;
@@ -106,9 +106,9 @@ int main()
 /*
 int main() {
     
-    fstream surnamesFile("surnames.txt", ios::in);
-    fstream fathernamesFile("fathernames.txt", ios::in);
-    fstream outputFile("fullnames.txt", ios::out);
+    fstream surnamesFile("Q4_surnames.txt", ios::in);
+    fstream fathernamesFile("Q4_fathernames.txt", ios::in);
+    fstream outputFile("Q4_fullnames.txt", ios::out);
 
     string firstname, fathername;
 
@@ -126,4 +126,81 @@ int main() {
     return 0;
 }
 */
+// * Question 5
+// TODO: Program that reads lines from an input file, reverses the content of each line, and writes the reversed result to an output file.
+/*
+int main()
+{
+ fstream firstFile, secondFile;
+ firstFile.open("Q5_input.txt", ios::in);
+ secondFile.open("Q5_output.txt", ios::out);
+ string sentence,reverse;
+ int j;
 
+ while (getline(firstFile, sentence))
+ {
+ cout << sentence<<endl;
+ reverse = sentence;
+ j = 0;
+ for (int i = sentence.length()-1; i>=0; i--)
+ {
+
+ reverse.at(j) = sentence.at(i);
+ j++;
+
+ }
+ secondFile << reverse << endl;
+ }
+ firstFile.close();
+ secondFile.close();
+ return 0;
+}
+*/
+// * Question 6
+// TODO: Program that reads text from a file, filters words starting with a user-provided character, and saves those words to a new file.
+/*
+int main() {
+    char c;
+    string word;
+    fstream fin, fout;
+    fin.open("Q6_input.txt", ios::in);
+    fout.open("Q6_output.txt", ios::out);
+    cout << "What are you looking for : ";
+    cin >> c;
+    while (fin >> word) {
+        if (word.at(0) == c) {
+                fout << word << endl;
+        }
+    }
+    fin.close();
+    fout.close();
+    return 0;
+}
+*/
+// * Question 7
+// TODO: Program that writes specific sentences to a file and uses seekg() to extract and print "finish" and "North Coast."
+/*
+int main() {
+    ifstream fin;
+    ofstream fout;
+    string word;
+    fout.open("Q7.txt");
+    fout << "I want to finish the semester." << endl;
+    fout << "I want the holiday to start." << endl;
+    fout << "I want to go to the North Coast.";
+    fout.close();
+
+    fin.open("Q7.txt", ios::in);
+    fin.seekg(10, ios::beg);
+    fin >> word;
+    cout << word << endl;
+    fin.seekg(-12, ios::end);
+    fin >> word;
+    cout << word;
+    fin.seekg(-7, ios::end);
+    fin >> word;
+    cout << " " << word << endl;
+    fin.close();
+    return 0;
+}
+*/
