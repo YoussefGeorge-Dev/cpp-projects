@@ -4,8 +4,8 @@
 
 ![C++](https://img.shields.io/badge/C++-17-black?style=for-the-badge\&logo=c%2B%2B\&logoColor=white)
 ![Course](https://img.shields.io/badge/Course-BUE%20Introduction%20to%20Programming-000000?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-2ea44f?style=for-the-badge)
-![Labs](https://img.shields.io/badge/Labs-8-0e75b6?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20Progress-2ea44f?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs-9-0e75b6?style=for-the-badge)
 
 **C++ lab solutions and coursework from The British University in Egypt (BUE)**
 
@@ -23,7 +23,7 @@
 
 ### Command Line
 
-```bash
+```bash id="cnk9s1"
 g++ Lab04.cpp -o output && ./output
 ```
 
@@ -31,91 +31,23 @@ g++ Lab04.cpp -o output && ./output
 
 ## 📚 Labs
 
-<details>
-<summary><b>🔹 Lab 01 — Basics & Control Flow</b></summary>
+| Lab       | Topics                                                 | File                           |
+| :-------- | :----------------------------------------------------- | :----------------------------- |
+| **Lab01** | Nested If · Switch-Case · Nested Loops                 | [Lab01.cpp](./Lab01/Lab01.cpp) |
+| **Lab02** | One-Dimensional Arrays                                 | [Lab02.cpp](./Lab02/Lab02.cpp) |
+| **Lab03** | Two-Dimensional Arrays · Matrix Operations             | [Lab03.cpp](./Lab03/Lab03.cpp) |
+| **Lab04** | Functions Part 1 · Parameters · Return Values          | [Lab04.cpp](./Lab04/Lab04.cpp) |
+| **Lab05** | Pointer Basics · Arrays with Pointers · Swapping       | [Lab05.cpp](./Lab05/Lab05.cpp) |
+| **Lab06** | Call by Reference · Arrays · Matrix Functions          | [Lab06.cpp](./Lab06/Lab06.cpp) |
+| **Lab07** | Structures · Enums · Data Modeling                     | [Lab07.cpp](./Lab07/Lab07.cpp) |
+| **Lab08** | File Handling · Read/Write · seekg() · Text Processing | [Lab08.cpp](./Lab08/Lab08.cpp) |
+| **Lab09** | Advanced File Handling · Exception Handling            | [Lab09.cpp](./Lab09/Lab09.cpp) |
 
-| Topics                                 | Folder           |
-| :------------------------------------- | :--------------- |
-| Nested If · Switch-Case · Nested Loops | [Lab01](./Lab01) |
+---
 
-</details>
+## 📝 Note
 
-<details>
-<summary><b>🔹 Lab 02 — One-Dimensional Arrays</b></summary>
-
-| Topics                                   | Folder           |
-| :--------------------------------------- | :--------------- |
-| Array Traversal · Searching · Processing | [Lab02](./Lab02) |
-
-</details>
-
-<details>
-<summary><b>🔹 Lab 03 — Two-Dimensional Arrays</b></summary>
-
-| Topics                                       | Folder           |
-| :------------------------------------------- | :--------------- |
-| Matrices · Nested Arrays · Matrix Operations | [Lab03](./Lab03) |
-
-</details>
-
-<details>
-<summary><b>🔹 Lab 04 — Functions Part 1</b></summary>
-
-| Topics                                 | File                           |
-| :------------------------------------- | :----------------------------- |
-| Functions · Parameters · Return Values | [Lab04.cpp](./Lab04/Lab04.cpp) |
-
-</details>
-
-<details>
-<summary><b>🔹 Lab 05 — Pointers</b></summary>
-
-| Topics                                           | File                           |
-| :----------------------------------------------- | :----------------------------- |
-| Pointer Basics · Arrays with Pointers · Swapping | [Lab05.cpp](./Lab05/Lab05.cpp) |
-
-</details>
-
-<details>
-<summary><b>🔹 Lab 06 — Functions Part 2</b></summary>
-
-| Topics                                        | File                           |
-| :-------------------------------------------- | :----------------------------- |
-| Call by Reference · Arrays · Matrix Functions | [Lab06.cpp](./Lab06/Lab06.cpp) |
-
-</details>
-
-<details>
-<summary><b>🔹 Lab 07 — Structs & Enums</b></summary>
-
-| Topics                             | File                           |
-| :--------------------------------- | :----------------------------- |
-| Structures · Enums · Data Modeling | [Lab07.cpp](./Lab07/Lab07.cpp) |
-
-</details>
-
-<details>
-<summary><b>🔹 Lab 08 — File Handling</b></summary>
-
-| Topics                                            | Files                          |
-| :------------------------------------------------ | :----------------------------- |
-| Reading/Writing Files · seekg() · Text Processing | [Lab08.cpp](./Lab08/Lab08.cpp) |
-
-### Additional Files
-
-* [Q1.txt](./Q1.txt)
-* [Q2.txt](./Q2.txt)
-* [Q3.txt](./Q3.txt)
-* [Q4_fathernames.txt](./Q4_fathernames.txt)
-* [Q4_fullnames.txt](./Q4_fullnames.txt)
-* [Q5_input.txt](./Q5_input.txt)
-* [Q5_output.txt](./Q5_output.txt)
-* [Q6_input.txt](./Q6_input.txt)
-* [Q6_output.txt](./Q6_output.txt)
-* [Q7.txt](./Q7.txt)
-* [surnames.txt](./surnames.txt)
-
-</details>
+The required `.txt` files used in the file handling exercises are included in the repository.
 
 ---
 
@@ -128,4 +60,4 @@ Primary references used while solving these labs:
 
 ---
 
-> *"Programs must be written for people to read, and only incidentally for machines to execute."* — Harold Abelson
+> *"There are only two kinds of languages: the ones people complain about and the ones nobody uses."* — Bjarne Stroustrup
