@@ -4,7 +4,6 @@
 
 ![C++](https://img.shields.io/badge/C++-17-black?style=for-the-badge\&logo=c%2B%2B\&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-000000?style=for-the-badge)
-![Labs](https://img.shields.io/badge/Labs-10-000000?style=for-the-badge&labelColor=000000)
 
 **C++ lab solutions and coursework from The British University in Egypt (BUE)**
 
