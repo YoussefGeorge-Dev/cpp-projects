@@ -3,9 +3,8 @@
 <div align="center">
 
 ![C++](https://img.shields.io/badge/C++-17-black?style=for-the-badge\&logo=c%2B%2B\&logoColor=white)
-![Course](https://img.shields.io/badge/Course-BUE%20Introduction%20to%20Programming-000000?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-In%20Progress-2ea44f?style=for-the-badge)
-![Labs](https://img.shields.io/badge/Labs-9-0e75b6?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-000000?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs-10-0e75b6?style=for-the-badge)
 
 **C++ lab solutions and coursework from The British University in Egypt (BUE)**
 
@@ -23,7 +22,7 @@
 
 ### Command Line
 
-```bash id="cnk9s1"
+```bash id="gt6m0e"
 g++ Lab04.cpp -o output && ./output
 ```
 
@@ -42,22 +41,27 @@ g++ Lab04.cpp -o output && ./output
 | **Lab07** | Structures · Enums · Data Modeling                     | [Lab07.cpp](./Lab07/Lab07.cpp) |
 | **Lab08** | File Handling · Read/Write · seekg() · Text Processing | [Lab08.cpp](./Lab08/Lab08.cpp) |
 | **Lab09** | Advanced File Handling · Exception Handling            | [Lab09.cpp](./Lab09/Lab09.cpp) |
+| **Lab10** | Recursive Functions · Recursion with Arrays            | [Lab10.cpp](./Lab10/Lab10.cpp) |
 
 ---
 
-## 📝 Note
+## 📝 Notes
 
-The required `.txt` files used in the file handling exercises are included in the repository.
+* All applications are terminal-based C++ programs.
+* The required `.txt` files used in the file handling exercises are included in the repository.
+
 
 ---
 
-## 📚 Reference
+## 📚 References
 
-Primary references used while solving these labs:
+Resources and references used throughout the labs:
 
 * [cppreference](https://en.cppreference.com/)
-* Course slides and lab sheets from BUE
+* [learncpp](https://www.learncpp.com/)
+* [cplusplus](https://cplusplus.com/)
+* BUE course slides and lab sheets
 
 ---
 
-> *"There are only two kinds of languages: the ones people complain about and the ones nobody uses."* — Bjarne Stroustrup
+> *"C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off."* — Bjarne Stroustrup
