@@ -1,0 +1,5 @@
+Yoghurt 5 3
+Coffee 400 1
+Icecream 30 5
+Salad 120 0
+The total is:565
