@@ -1,11 +1,10 @@
 #include <iostream>
-using namespace std; 
+using namespace std;
 
-int main() 
+int main()
 {
-int num;
-cout << "Enter a number";
-cin >> num;
-cout << num;
+    int num;
+    cout << "Enter a number";
+    cin >> num;
+    cout << num;
 }
-

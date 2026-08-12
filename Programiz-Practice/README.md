@@ -5,7 +5,7 @@
 ![C++](https://img.shields.io/badge/C++-17-black?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Algorithms%20%26%20Logic-000000?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-2ea44f?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Progress-14%2F63-0e75b6?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-28%2F63-0e75b6?style=for-the-badge)
 
 **Independent study collection of C++ solutions from [Programiz](https://www.programiz.com/cpp-programming/examples)**
 
@@ -46,7 +46,7 @@ g++ 01_Hello_World.cpp -o output && ./output
 </details>
 
 <details>
-<summary><b>🔹  Decisions and Loops  </b> — 6/21 complete</summary>
+<summary><b>🔹  Decisions and Loops  </b> — 20/21 complete</summary>
 
 | # | Problem | Status | File |
 |:-:|:--------|:------:|:-----|
@@ -56,21 +56,21 @@ g++ 01_Hello_World.cpp -o output && ./output
 | 10 | Find All Roots of a Quadratic Equation | ✔️ | [10_Quadratic_Roots.cpp](./10_Quadratic_Roots.cpp) |
 | 11 | Calculate Sum of Natural Numbers | ✔️ | [11_Sum_Natural.cpp](./11_Sum_Natural.cpp) |
 | 12 | Check Leap Year | ✔️ | [12_Leap_Year.cpp](./12_Leap_Year.cpp) |
-| 13 | Find Factorial | ⬜ | [13_Factorial.cpp](./13_Factorial.cpp) |
-| 14 | Generate Multiplication Table | ⬜ | [14_Multiplication_Table.cpp](./14_Multiplication_Table.cpp) |
-| 15 | Display Fibonacci Series | ⬜ | [15_Fibonacci.cpp](./15_Fibonacci.cpp) |
-| 16 | Find GCD | ⬜ | [16_GCD.cpp](./16_GCD.cpp) |
-| 17 | Find LCM | ⬜ | [17_LCM.cpp](./17_LCM.cpp) |
-| 18 | Reverse a Number | ⬜ | [18_Reverse_Number.cpp](./18_Reverse_Number.cpp) |
-| 19 | Calculate Power of a Number | ⬜ | [19_Power_Number.cpp](./19_Power_Number.cpp) |
-| 24 | Check Whether a Number is Palindrome or Not | ⬜ | [24_Palindrome.cpp](./24_Palindrome.cpp) |
-| 25 | Check Whether a Number is Prime or Not | ⬜ | [25_Check_Prime.cpp](./25_Check_Prime.cpp) |
-| 26 | Display Prime Numbers Between Two Intervals | ⬜ | [26_Primes_Interval.cpp](./26_Primes_Interval.cpp) |
-| 27 | Check Armstrong Number | ⬜ | [27_Check_Armstrong.cpp](./27_Check_Armstrong.cpp) |
-| 28 | Display Armstrong Number Between Two Intervals | ⬜ | [28_Armstrong_Interval.cpp](./28_Armstrong_Interval.cpp) |
-| 29 | Display Factors of a Number | ⬜ | [29_Factors.cpp](./29_Factors.cpp) |
+| 13 | Find Factorial | ✔️ | [13_Factorial.cpp](./13_Factorial.cpp) |
+| 14 | Generate Multiplication Table | ✔️ | [14_Multiplication_Table.cpp](./14_Multiplication_Table.cpp) |
+| 15 | Display Fibonacci Series | ✔️ | [15_Fibonacci.cpp](./15_Fibonacci.cpp) |
+| 16 | Find GCD | ✔️ | [16_GCD.cpp](./16_GCD.cpp) |
+| 17 | Find LCM | ✔️ | [17_LCM.cpp](./17_LCM.cpp) |
+| 18 | Reverse a Number | ✔️ | [18_Reverse_Number.cpp](./18_Reverse_Number.cpp) |
+| 19 | Calculate Power of a Number | ✔️ | [19_Power_Number.cpp](./19_Power_Number.cpp) |
+| 24 | Check Whether a Number is Palindrome or Not | ✔️ | [24_Palindrome.cpp](./24_Palindrome.cpp) |
+| 25 | Check Whether a Number is Prime or Not | ✔️ | [25_Check_Prime.cpp](./25_Check_Prime.cpp) |
+| 26 | Display Prime Numbers Between Two Intervals | ✔️ | [26_Primes_Interval.cpp](./26_Primes_Interval.cpp) |
+| 27 | Check Armstrong Number | ✔️ | [27_Check_Armstrong.cpp](./27_Check_Armstrong.cpp) |
+| 28 | Display Armstrong Number Between Two Intervals | ✔️ | [28_Armstrong_Interval.cpp](./28_Armstrong_Interval.cpp) |
+| 29 | Display Factors of a Number | ✔️ | [29_Factors.cpp](./29_Factors.cpp) |
 | 30 | Create Pyramid and Pattern | ⬜ | [30_Pyramid_Pattern.cpp](./30_Pyramid_Pattern.cpp) |
-| 31 | Make a Simple Calculator (Switch Case) | ⬜ | [31_Simple_Calculator.cpp](./31_Simple_Calculator.cpp) |
+| 31 | Make a Simple Calculator (Switch Case) | ✔️ | [31_Simple_Calculator.cpp](./31_Simple_Calculator.cpp) |
 
 </details>
 
@@ -132,7 +132,7 @@ g++ 01_Hello_World.cpp -o output && ./output
 
 </details>
 
-**Total: 14/63 problems solved**
+**Total: 28/63 problems solved**
 
 ---
 

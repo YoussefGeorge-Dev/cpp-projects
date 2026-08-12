@@ -3,30 +3,27 @@ using namespace std;
 
 // * Question 1
 // TODO: This question is about finding the largest and smallest numbers in a 2D array of integers.
-
-/*
-int main() 
+void question1()
 {
     const int ROWS = 3;
     const int COLS = 5;
 
-    int arr[ROWS][COLS] = 
-    {
-        {1, 2, 3, 4, 5},
-        {6, 7, 8, 9, 10},
-        {11, 12, 13, 14, 15}
-    };
+    int arr[ROWS][COLS] =
+        {
+            {1, 2, 3, 4, 5},
+            {6, 7, 8, 9, 10},
+            {11, 12, 13, 14, 15}};
     int max = arr[0][0];
     int min = arr[0][0];
-    for (int i = 0; i < ROWS; i++) 
+    for (int i = 0; i < ROWS; i++)
     {
-        for (int j = 0; j < COLS; j++) 
+        for (int j = 0; j < COLS; j++)
         {
-            if (arr[i][j] > max) 
+            if (arr[i][j] > max)
             {
                 max = arr[i][j];
             }
-            if (arr[i][j] < min) 
+            if (arr[i][j] < min)
             {
                 min = arr[i][j];
             }
@@ -34,56 +31,47 @@ int main()
     }
     cout << "The largest number is: " << max << endl;
     cout << "The smallest number is: " << min << endl;
-    return 0;
 }
-*/
 
 // * Question 2
 // TODO: This question is about printing the odd numbers in a 2D array of integers.
-
-/*
-int main() 
+void question2()
 {
     const int ROWS = 3;
     const int COLS = 5;
 
-    int arr[ROWS][COLS] = 
-    {
-        {1, 2, 3, 4, 5},
-        {6, 7, 8, 9, 10},
-        {11, 12, 13, 14, 15}
-    };
-
-    for (int i = 0; i < ROWS; i++) 
-    {
-        for (int j = 0; j < COLS; j++) 
+    int arr[ROWS][COLS] =
         {
-            if (arr[i][j] % 2 != 0) 
+            {1, 2, 3, 4, 5},
+            {6, 7, 8, 9, 10},
+            {11, 12, 13, 14, 15}};
+
+    for (int i = 0; i < ROWS; i++)
+    {
+        for (int j = 0; j < COLS; j++)
+        {
+            if (arr[i][j] % 2 != 0)
             {
                 cout << arr[i][j] << " ";
             }
         }
     }
-    return 0;
+    cout << endl;
 }
-*/
 
 // * Question 3
 // ! HIGHLY IMPORTANT
-// TODO: This question is about calculating the product of each column in a 2D array of integers and storing the results in a separate array before printing them out. 
-
-/*
-int main() 
+// TODO: This question is about calculating the product of each column in a 2D array of integers and storing the results in a separate array before printing them out.
+void question3()
 {
     const int ROWS = 3;
     const int COLS = 5;
 
-    int arr[ROWS][COLS] = 
-    {
-        {5, 3, 2, 1, 5},
-        {2, 3, 4, 3, 6},
-        {10, 9, 8, 4, 2}
-    };
+    int arr[ROWS][COLS] =
+        {
+            {5, 3, 2, 1, 5},
+            {2, 3, 4, 3, 6},
+            {10, 9, 8, 4, 2}};
 
     int result[COLS];
     int product;
@@ -100,26 +88,21 @@ int main()
         result[i] = product;
         cout << result[i] << " ";
     }
-
-    return 0;
+    cout << endl;
 }
-*/
 
 // * Question 4
 // TODO: This question is about searching for a specific number in a 2D array of integers and printing out its location if found, or a message indicating that it was not found if it is not present in the array.
-
-/*
-int main() 
+void question4()
 {
     const int ROWS = 3;
     const int COLS = 3;
 
-    int arr[ROWS][COLS] = 
-    {
-        {1, 2, 3},
-        {4, 5, 6},
-        {7, 8, 9}
-    };
+    int arr[ROWS][COLS] =
+        {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}};
 
     int x;
     cout << "Enter a number to search for: ";
@@ -141,31 +124,25 @@ int main()
     }
     if (found == false)
         cout << "Number not found." << endl;
-
-    return 0;
 }
-*/
 
 // * Question 5
 // ! HIGHLY IMPORTANT
 // TODO: This question is about calculating the average grade for each student based on a 2D array of integers where each row represents a student.
-
-/*
-int main() 
+void question5()
 {
     const int ROWS = 3;
     const int COLS = 5;
 
-    int arr[ROWS][COLS] = 
-    {
-        {50, 10, 89, 36, 69},
-        {87, 94, 52, 37, 78},
-        {48, 65, 75, 19, 23}
-    };
+    int arr[ROWS][COLS] =
+        {
+            {50, 10, 89, 36, 69},
+            {87, 94, 52, 37, 78},
+            {48, 65, 75, 19, 23}};
 
-    float average = 0;
     for (int i = 0; i < ROWS; i++)
     {
+        float average = 0; // ! Reset average for each new student
         for (int j = 0; j < COLS; j++)
         {
             average = average + arr[i][j];
@@ -173,24 +150,20 @@ int main()
         average = average / COLS;
         cout << "Student " << i + 1 << " average grade is " << average << endl;
     }
-    return 0;
 }
-*/
 
 // * Question 6
 // !! HIGHLY IMPORTANT
 // TODO: This is the product of two matrices, where the first matrix has dimensions 2x3 and the second matrix has dimensions 3x2, and the resulting product is stored in a new matrix with dimensions 2x2 before being printed out.
-
-/*
-int main() 
+void question6()
 {
     const int ROW1 = 2;
     const int COL1 = 3;
     const int ROW2 = 3;
     const int COL2 = 2;
 
-    int a[ROW1][COL1] = { {1, 2, 3}, {4, 5, 6} };
-    int b[ROW2][COL2] = { {10, 11}, {20, 21}, {30, 31} };
+    int a[ROW1][COL1] = {{1, 2, 3}, {4, 5, 6}};
+    int b[ROW2][COL2] = {{10, 11}, {20, 21}, {30, 31}};
     int result[ROW1][COL2];
 
     // Multiplying matrix a and b and storing in array result.
@@ -214,34 +187,29 @@ int main()
         }
         cout << endl;
     }
-    return 0;
 }
-*/
 
 // * Question 7
 // ! HIGHLY IMPORTANT
 // TODO: This question is about searching for a specific word in a 2D array of characters and printing out its location if found, or a message indicating that it was not found if it is not present in the array. The search should be case-insensitive, meaning that it should not matter whether the letters in the word are uppercase or lowercase when comparing them to the characters in the array.
-
-/*
-int main() 
+void question7()
 {
     const int ROWS = 4;
     const int COLS = 5;
 
     string word;
-    char arr[ROWS][COLS] = 
-    {
-        {'A', 'C', 'A', 'T', 'N'},
-        {'F', 'M', 'D', 'O', 'G'},
-        {'K', 'I', 'T', 'P', 'Q'},
-        {'M', 'S', 'A', 'F', 'A'}
-    };
+    char arr[ROWS][COLS] =
+        {
+            {'A', 'C', 'A', 'T', 'N'},
+            {'F', 'M', 'D', 'O', 'G'},
+            {'K', 'I', 'T', 'P', 'Q'},
+            {'M', 'S', 'A', 'F', 'A'}};
 
     cout << "Enter the word you are searching for:" << endl;
     cin >> word;
 
     char letter1 = tolower(word.at(0));
-    char letter2 = tolower(word.at(1));    
+    char letter2 = tolower(word.at(1));
     char letter3 = tolower(word.at(2));
     bool found = false;
 
@@ -262,28 +230,23 @@ int main()
     {
         cout << "The word is not found in the array." << endl;
     }
-    return 0;
 }
-*/
 
 // * Question 8
 // ! HIGHLY IMPORTANT
 // TODO: Fill in the missing values (0s) in a 3x3 sudoku grid so that each row contains 1, 2, and 3 with no repeats, then print the completed grid.
-
-/*
-int main()
+void question8()
 {
     // Define the dimensions of the puzzle grid
     const int ROWS = 3;
     const int COLS = 3;
 
     // Initialize the puzzle grid (0 represents a missing/empty cell)
-    int puzzle[ROWS][COLS] = 
-    {
-        {1, 0, 3},
-        {3, 1, 0},
-        {2, 3, 0}
-    };
+    int puzzle[ROWS][COLS] =
+        {
+            {1, 0, 3},
+            {3, 1, 0},
+            {2, 3, 0}};
 
     // Array to store the sum of each row, initialized to 0
     int sum[ROWS] = {0};
@@ -335,7 +298,66 @@ int main()
         }
         cout << endl;
     }
+}
+
+// * Main Menu
+int main()
+{
+    int choice;
+
+    do
+    {
+        cout << "\n=========================================\n";
+        cout << "                LAB 03 MENU               \n";
+        cout << "=========================================\n";
+        cout << " 1. Largest & Smallest in 2D Array\n";
+        cout << " 2. Odd Numbers in 2D Array\n";
+        cout << " 3. Product of Each Column\n";
+        cout << " 4. Search for Number in 2D Array\n";
+        cout << " 5. Average Grade per Student\n";
+        cout << " 6. Matrix Multiplication (2x3 * 3x2)\n";
+        cout << " 7. Case-Insensitive Word Search\n";
+        cout << " 8. Sudoku Row Solver\n";
+        cout << " 0. Exit\n";
+        cout << "=========================================\n";
+        cout << "Enter your choice: ";
+        cin >> choice;
+        cout << "-----------------------------------------\n";
+
+        switch (choice)
+        {
+        case 1:
+            question1();
+            break;
+        case 2:
+            question2();
+            break;
+        case 3:
+            question3();
+            break;
+        case 4:
+            question4();
+            break;
+        case 5:
+            question5();
+            break;
+        case 6:
+            question6();
+            break;
+        case 7:
+            question7();
+            break;
+        case 8:
+            question8();
+            break;
+        case 0:
+            cout << "Exiting program." << endl;
+            break;
+        default:
+            cout << "Invalid choice. Please try again." << endl;
+        }
+
+    } while (choice != 0);
 
     return 0;
 }
-*/
